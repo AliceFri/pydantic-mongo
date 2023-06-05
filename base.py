@@ -8,9 +8,9 @@ from pymongo.collection import Collection
 import typing
 import inspect
 
-from orm.db import get_collection
-from orm.const import *
-from orm.f import _BaseModel, cache
+from .db import get_collection
+from .const import *
+from .f import _BaseModel, cache
 
 
 class ObjectId(bson.ObjectId):
